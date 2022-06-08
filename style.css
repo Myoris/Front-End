@@ -1,0 +1,108 @@
+
+.descuento{
+    background-color: #1CD1B0;
+    position: absolute;
+    width: 1024px;
+    height: 40px;
+    position: fixed;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    z-index: 40;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    position: relative;
+    box-sizing: border-box;
+}
+.heroe{
+    background-color: #00669F;
+    position: absolute;
+    width: 1024px;
+    height: 80px;
+    position: fixed;
+    margin-top: 55px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    z-index: 40;
+}
+.circulo{
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 100px;
+}
+main{
+    width: 960px;
+    height: 530px;
+    left: 32px;
+    top: 292px;
+}
+.tarjeta1{
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 32px;
+    top: 293px;
+}
+.tarjeta2{
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 362px;
+    top: 293px;
+}
+.tarjeta3{
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 692px;
+    top: 294px;
+}
+footer{
+    background-color: #00669F;
+    color: white;
+    position:absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+}
+button{
+    position: absolute;
+    bottom: 20px;
+    background-color: #00669F;
+    color: white;
+    right: 100px;
+    box-sizing: border-box;
+    padding:15px 30px;
+    border: none;
+}
+.titulo{
+    text-align: center;
+}
+div{
+    position: relative;
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 529px;
+    z-index: 6px;
+}
+.vector{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+p{
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+h2{
+    margin-top: 30px;
+}
+
