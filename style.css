@@ -6,7 +6,7 @@ header{
     justify-content: space-around;
     height: 100px;
     align-items: center;
-
+    background-color: green;
 }
 .logo{
     width: 146px;
@@ -40,6 +40,7 @@ main section{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: #F3613C;
 }
 
 ul{
@@ -52,6 +53,7 @@ p{
 main{
     display: flex;
     flex-direction: column;
+    background-color: yellow;
 }
 .cards{
     display: flex;
@@ -62,11 +64,78 @@ main{
 }
 .btnchico{
     background-color: #F3603B;
+    width: 60px;
+    height: 44px;
+    font-size: 13px;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+}
+
+div{
+    display: block;
+    justify-items: center;
+}
+
+a:hover,
+a:active {
+ color:red;
+}
+
+h2{
+    font-size: 36px;
+    color: #232851;
+}
+
+.letrabold{
+    font-weight: bold;
+}
+
+.letragrey{
+    color: #B3B2B7;
+}
+
+
+/*footer*/
+.footernaranja{
+    margin-top: 50px;
+    background-color: #F3613C;
+    color: white;
+    height: 150px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnblanco{
+    width: 144px;
+    height: 44px;
+    font-size: 13px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: white;
+    color: #F3603B;
+}
+
+footer{
+    background-color: black;
+}
+.piefinal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+ul{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+label{
     width: 144px;
     height: 44px;
     font-size: 13px;
     color: white;
-    border-radius: 30px;
+    border-radius: 50px;
     border-style: none;
 }
-
