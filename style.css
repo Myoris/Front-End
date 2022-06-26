@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2? family= Be+Vietnam+Pro & family= Charis+SIL:wght@700 & family= Roboto:wght@300 & display=swap' );
+
+header{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+
+}
+.logo{
+    width: 146px;
+    height: 24px;
+}
+header nav{
+    width: 33vw;
+    color: #242E52;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #F3603B;
+    width: 144px;
+    height: 44px;
+    font-size: 13px;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+/*main*/
+h1{
+    font-size: 58px;
+    color: #232C50;
+}
+
+main section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+p{
+    font-size: 17px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.cardsgroup{
+    display: flex;
+}
+.btnchico{
+    background-color: #F3603B;
+    width: 144px;
+    height: 44px;
+    font-size: 13px;
+    color: white;
+    border-radius: 30px;
+    border-style: none;
+}
+
